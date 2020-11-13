@@ -148,7 +148,20 @@ span {
 
 /*====Health Care======*/
 
+.health_care .heading {
+    padding-top: 40px;
+    padding-top: 20px;
+}
 
+.health_care .img  {
+    padding-top: 30px;
+}
+.caregivers h3 {
+    font-weight: 700;
+}
+.caregivers .img  {
+    padding-top: 30px;
+}
 
 
 
