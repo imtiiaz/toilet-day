@@ -81,20 +81,20 @@ p {
     border-top: 1px solid #000;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 
 /*===============House Hold=========*/
 .left_item {
-    border-bottom: 1px solid #000;
     border-right: 1px solid #000;
 }
+
 .house_hold {
     margin: 0 15px;
 }
 
-.border_top {
-    
-}
+.border_top {}
+
 .house_bg {
     background: #d4dbea;
     border-radius: 30px;
@@ -103,12 +103,13 @@ p {
     padding-left: 40px;
     padding-right: 40px;
     margin-bottom: 200px;
-  
+
 }
 
-.house_item  {
+.house_item {
     text-align: center;
 }
+
 .house_item .img {
     padding-top: 40px;
     text-align: center;
@@ -123,9 +124,10 @@ p {
 .top {
     position: relative;
     display: inline-block;
-    
+
 }
-.bottom  {
+
+.bottom {
     background: #4f81bd;
     border: 4px solid #fff;
     border-radius: 0 0 30px 30px;
@@ -137,10 +139,12 @@ p {
     text-align: center;
     height: 270px;
 }
-.bottom  h2 {
+
+.bottom h2 {
     font-size: 48px;
     font-family: 'PT Serif', serif;
 }
+
 span {
     text-align: center;
 }
@@ -153,23 +157,80 @@ span {
     padding-top: 20px;
 }
 
-.health_care .img  {
+.health_care .img {
     padding-top: 30px;
 }
+
 .caregivers h3 {
     font-weight: 700;
 }
-.caregivers .img  {
+
+.caregivers .img {
     padding-top: 30px;
 }
 
+/*+++++++++++++++++++++++Right Side+++++++++++++++*/
 
+.students h3 {
+    color: #595959;
+    line-height: 1.7;
+}
 
+.students .img {
+    border-bottom: 1px solid #ddd;
+}
 
+.students .img h3 {
+    font-family: 'PT Serif', serif;
+    color: #121212;
+    padding-top: 10px;
+}
 
+.abailability h2 {
+    text-align: left;
+}
 
+.abailability h3 {
+    font-size: 24px;
+    color: #121212;
+    text-align: left;
+}
 
+.school_toilets h2 {
+    font-weight: 700;
+}
 
+.school_toilets h3 {
 
+    font-size: 22px;
+    color: #121212;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif !important;
+}
 
+.school_toilets h3 span {
+    font-weight: 700;
+    font-size: 35px;
+}
 
+.school_toilets .img {
+    border: none;
+}
+
+.sanitary_pads .img {
+    border: none;
+    text-align: center
+}
+
+.sanitary_pads h3 {
+    padding-top: 10px;
+    font-size: 22px;
+    color: #121212;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.sanitary_pads h3 span {
+    font-weight: 700;
+    font-size: 35px;
+}
