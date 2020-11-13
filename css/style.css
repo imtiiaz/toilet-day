@@ -87,6 +87,7 @@ p {
 /*===============House Hold=========*/
 .left_item {
     border-right: 1px solid #000;
+    padding-bottom: 20px;
 }
 
 .house_hold {
@@ -233,4 +234,77 @@ span {
 .sanitary_pads h3 span {
     font-weight: 700;
     font-size: 35px;
+}
+
+/*++++++++++++Section-2++++++++++++++*/
+
+.content {
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-top: 20px;
+}
+
+.content .border_right {
+    border-right: 1px solid #000;
+}
+
+.left_item-2 {
+    padding: 20px 0;
+}
+
+.right_item-2 {
+    padding: 20px 0;
+}
+
+.right_item-2 h2 {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.right_item-2 h2:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: -15px;
+    right: -15px;
+    background: #000;
+    height: 1px;
+}
+
+.top_1 {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.top_1:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: -15px;
+    right: -15px;
+    background: #000;
+    height: 1px;
+}
+
+.right_item-2 .top_1:last-child:after {
+    content: none;
+}
+
+.top_1 h3 {
+    padding-top: 30px;
+    font-size: 22px;
+    color: #121212;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.top_1 h3 span {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.right_item-2 img {
+    margin-top: 30px;
 }
