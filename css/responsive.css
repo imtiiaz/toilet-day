@@ -1,15 +1,12 @@
 /***********************************************************************************
  Header Section
 ***********************************************************************************/
-@media (max-width: 991px) {
-
-    .main_menu {
-        padding: 10px 0;
-    }
-
-    .navbar-nav .nav-item .nav-link {
-        padding: 20px 0;
-        text-align: center;
+@media (max-width: 767px) {
+    .bottom {
+        left: -20px;
+        right: -20px;
+        bottom: -225px;
+        height: 218px;
     }
 }
 
@@ -35,12 +32,19 @@
 
 @media (max-width: 767px) {
     .sm_padding {
-        padding-top: 280px;
+        padding-top: 210px;
+    }
+
+    .bottom {
+        left: -20px;
+        right: -20px;
+        bottom: -225px;
+        height: 218px;
     }
 
     .house_bg {
         margin-bottom: 20px;
-        padding-bottom: 320px;
+        padding-bottom: 265px;
     }
 }
 
@@ -51,10 +55,11 @@
 ***********************************************************************************/
 
 @media (max-width: 1700px) {
-    
+
     h1 {
         font-size: 36px;
     }
+
     h2 {
         font-size: 28px;
         line-height: 1.4;
@@ -76,6 +81,7 @@
     .pt-30 {
         padding-top: 20px;
     }
+
     .pt-40 {
         padding-top: 25px;
     }
@@ -102,9 +108,11 @@
         line-height: 1.5;
     }
 
-    .abailability h2, h3  {
+    .abailability h2,
+    h3 {
         text-align: center !important;
     }
+
     .abailability h3 {
         font-size: 20px;
     }
@@ -113,22 +121,27 @@
         height: 115px;
     }
 
-    .school_toilets h3  {
+    .school_toilets h3 {
         font-size: 20px;
     }
+
     .school_toilets h3 span {
         font-size: 25px;
     }
+
     .sanitary_pads h3 {
         font-size: 20px;
         line-height: 1.4
-    }   
-    .sanitary_pads h3 span  {
+    }
+
+    .sanitary_pads h3 span {
         font-size: 25px;
     }
+
     .left_item {
         padding-bottom: 0;
     }
+
     .top_1 {
         padding-bottom: 20px;
         margin-top: 20px;
