@@ -39,7 +39,7 @@
     }
 
     .house_bg {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         padding-bottom: 320px;
     }
 }
@@ -50,7 +50,90 @@
  About Section
 ***********************************************************************************/
 
-@media (max-width: 991px) {}
+@media (max-width: 1700px) {
+    
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 1.4
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .pt-50 {
+        padding-bottom: 30px;
+    }
+
+    .pt-30 {
+        padding-top: 20px;
+    }
+    .pt-40 {
+        padding-top: 25px;
+    }
+
+    .pb-50 {
+        padding-top: 30px;
+    }
+
+    .house_item img {
+        height: 140px;
+    }
+
+    .bottom h2 {
+        font-size: 34px;
+    }
+
+
+    .health_care img {
+        height: 130px;
+    }
+
+    .students h3 {
+
+        line-height: 1.5;
+    }
+
+    .abailability h2, h3  {
+        text-align: center !important;
+    }
+    .abailability h3 {
+        font-size: 20px;
+    }
+
+    .school_toilets img {
+        height: 115px;
+    }
+
+    .school_toilets h3  {
+        font-size: 20px;
+    }
+    .school_toilets h3 span {
+        font-size: 25px;
+    }
+    .sanitary_pads h3 {
+        font-size: 20px;
+        line-height: 1.4
+    }   
+    .sanitary_pads h3 span  {
+        font-size: 25px;
+    }
+    .left_item {
+        padding-bottom: 0;
+    }
+    .top_1 {
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+}
 
 /***********************************************************************************
  App Section
